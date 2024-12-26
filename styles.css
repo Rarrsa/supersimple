@@ -1,0 +1,45 @@
+body {
+    font-family: monospace;
+    background-color: #f2e900;
+    color:#1a1919;
+}
+div{
+ text-align: center;
+}
+h3{
+    border: solid;
+    margin-top:100px;
+    text-align:center;
+}
+h1{
+    margin-top:30px;
+    text-align:center;
+}
+.animated-image {
+    transition :transform 0.5s ease-in-out;
+}
+.animated-image:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+.hi{
+  justify-content: center;
+}
+.bird{
+  display: inline-flex;
+  justify-content: center;
+}  
+.bird h6{
+  position: absolute;
+   left: 20px;
+  position: relative;
+  width: 70%;
+  top: 50px;
+}
+footer {
+  margin-top:200px;
+  width: auto;
+  height:auto;
+  background-color: #1a1919;
+  color:#b5b3b3;
+  text-align: center;
+}
